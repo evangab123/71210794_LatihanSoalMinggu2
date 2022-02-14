@@ -12,7 +12,8 @@ tinggi = float(input("Masukan tinggi badan anda dalam meter = "))
 #Mengubah tinggi dari meter menjadi centimeter
 tinggicm= tinggi *100
 #rumus
-berat = (tinggicm**2)*bmi/10000
 
+berat = ((tinggicm**2)*bmi)/10000
+berat1 = round(berat)
 #output
-print("Berat badan yang diperlukan dalam Kilogram =", int(berat))
+print("Berat badan yang diperlukan dalam Kilogram =", round(berat))
