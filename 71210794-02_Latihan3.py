@@ -9,8 +9,10 @@ reversepajak= 86/100
 gaji_tidak_pajak = gaji_perjam * kerja_jam
 gaji_pajak= gaji_tidak_pajak * reversepajak
 pakaian_aksesoris = gaji_pajak * 10/100
-alat_tulis= gaji_pajak * 1/100
-sedekah= gaji_pajak * 25/100
+gaji_kurang1 = gaji_pajak - pakaian_aksesoris
+alat_tulis= gaji_kurang1 * 1/100
+gaji_kurang2 = gaji_kurang1 - alat_tulis
+sedekah= gaji_kurang2 * 25/100
 
 anak_yatim = sedekah * 30/100
 anak_dhuafa = sedekah * 70/100
