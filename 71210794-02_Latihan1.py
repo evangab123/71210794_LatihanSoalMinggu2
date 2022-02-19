@@ -6,14 +6,14 @@ print(" ")
 print("+++Informasi Nilai BMI+++")
 print("Underweight = <18.5 \nNormal weight = 18.5-24.9 \nOverweight = 25-29.9 \nObesity = BMI of 30 or greater")
 print(" ")
-#inisiasi Variabel an input
+#inisiasi Variabel dan input
 bmi = float(input("Masukan Nilai BMI anda = "))
 tinggi = float(input("Masukan tinggi badan anda dalam meter = "))
 #Mengubah tinggi dari meter menjadi centimeter
-tinggicm= tinggi *100
+#tinggicm= tinggi *100
 #rumus
 
-berat = ((tinggicm**2)*bmi)/10000
-berat1 = round(berat)
+berat = ((tinggi**2)*bmi)
+
 #output
 print("Berat badan yang diperlukan dalam Kilogram =", round(berat))
