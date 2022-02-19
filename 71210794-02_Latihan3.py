@@ -13,7 +13,6 @@ gaji_kurang1 = gaji_pajak - pakaian_aksesoris
 alat_tulis= gaji_kurang1 * 1/100
 gaji_kurang2 = gaji_kurang1 - alat_tulis
 sedekah= gaji_kurang2 * 25/100
-
 anak_yatim = sedekah * 30/100
 anak_dhuafa = sedekah * 70/100
 
@@ -22,8 +21,8 @@ anak_dhuafa = sedekah * 70/100
 
 print("Gaji bersih Budi =", gaji_tidak_pajak)
 print("Gaji Budi dengan pajak 14% =", int(gaji_pajak) )
-print("Jumlah uang Budi untuk membeli pakaian dan aksesoris = ",int(pakaian_aksesoris))
-print("Jumlah uang Budi untuk membeli alat tulis =", int(alat_tulis))
-print("Jumlah uang Budi untuk sedekah =", int(sedekah))
-print("Jumlah uang sedekah untuk anak yatim =", int(anak_yatim))
-print("Jumlah uang sedekah untuk anak dhuafa =", int(anak_dhuafa))
+print("Jumlah uang Budi untuk membeli pakaian dan aksesoris = ",round(pakaian_aksesoris))
+print("Jumlah uang Budi untuk membeli alat tulis =", round(alat_tulis))
+print("Jumlah uang Budi untuk sedekah =", round(sedekah))
+print("Jumlah uang sedekah untuk anak yatim =", round(anak_yatim))
+print("Jumlah uang sedekah untuk anak dhuafa =", round(anak_dhuafa))
